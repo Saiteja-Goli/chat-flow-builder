@@ -9,7 +9,7 @@ This project creates an intuitive Chatbot flow builder using React and the robus
   Frontend
 
 ## Deployed App (Placeholder)
- Frontend:
+[link](https://chat-flow-builder-three.vercel.app/)
 
 
 ## Video Walkthrough
@@ -33,28 +33,40 @@ This project creates an intuitive Chatbot flow builder using React and the robus
      Enables users to persist the created chatbot flow. However, the implementation currently prevents saving flows in which all nodes lack target connections (error message displayed).
      
 ## Installation & Getting Started
+### Prerequisites
 
-### Prerequisites: 
-    Ensure you have Node.js and npm (or yarn) installed on your system.
-### Clone the Repository:
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Saiteja-Goli/chat-flow-builder.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd chat-flow-builder
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To start the development server:
+
+```bash
+npm run dev
 ```
-git clone https://github.com/Saiteja-Goli/chat-flow-builder.git
-
-```
-
-### Install Dependencies:
-
-```
-cd react-flow-assignment
-npm install
-```
-
-### Start the Development Server:
-```
-npm start
-
-```
-
 This will launch the development server and open the application in your default web browser, typically at http://localhost:3000.
 
 
@@ -69,7 +81,7 @@ Click the Save Button when you're satisfied with your flow.
 The application currently prevents saving flows with unconnected nodes. Ensure your flow has a well-defined structure before saving.
 
 ## Technology Stack
-<b>React: </b> JavaScript library for building user interfaces.
+- **React**: A JavaScript library for building user interfaces, developed by Facebook. It allows for the creation of reusable UI components. The front-end of this project is built using React, providing a dynamic and interactive user experience.
 
 <b>React Flow: </b> Library providing drag-and-drop functionality for creating the flow builder interface.
 
