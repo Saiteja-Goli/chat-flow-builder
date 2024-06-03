@@ -9,7 +9,7 @@ This project creates an intuitive Chatbot flow builder using React and the robus
   Frontend
 
 ## Deployed App (Placeholder)
-[link](https://chat-flow-builder-three.vercel.app/)
+[link](https://chat-flow-builder-pdju.vercel.app/)
 
 
 ## Video Walkthrough
