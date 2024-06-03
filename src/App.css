@@ -100,17 +100,26 @@ textarea{
 }
 
 .fixedCustom {
-  border-radius:5px 5px 0 0;
-  width: 99.99%;
+  border-radius: 5px 5px 0 0;
+  /* border: 1px solid red; */
+  width: 100%; /* Updated to ensure full width */
   height: 1.9vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   font-size: 10px;
   background-color: #b2f0e4;
 }
+.fixedCustom .message {
+  margin: 0 0 0 30px; 
+}
 
+.fixedCustom div{
+  /* border: 1px solid red; */
+  margin: 2px 0 0 6px; 
+
+/* margin-left: 10px; */
+}
 
 .node {
   display: flex;
